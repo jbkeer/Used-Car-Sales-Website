@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body{
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+/*********** BUTTON **************/
+.button {
+	border: 2px solid #395B64;
+	border-radius: 5px;
+	transition-duration: 0.2s;
+	text-decoration: none;
+	color: white;
+	background-color: #395B64;
+}
+.button:hover {
+	background-color: white;
+	border: 2px solid #395B64;
+	color: #395B64;
+}
+.button:active {
+	background-color: #395B64;
+	color: white;
+}
+.button1 {
+	border: 2px solid #A5C9CA;
+	border-radius: 5px;
+	transition-duration: 0.2s;
+	text-decoration: none;
+	color: black;
+	background-color: #A5C9CA;
+}
+.button1:hover {
+	background-color: #395B64;
+	border: 2px solid #A5C9CA;
+	color: #A5C9CA;
+}
+.button1:active {
+	background-color: #A5C9CA;
+	color: white;
+}
+.button2 {
+/* 	border: 2px solid #395B64; */
+	transition-duration: 0.2s;
+	text-decoration: none;
+	color: white;
+/* 	background-color: #395B64; */
+}
+.button2:hover {
+/* 	background-color: #A5C9CA; */
+/* 	border: 2px solid #395B64; */
+	color: #A5C9CA;
+}
+.button2:active {
+	border-radius: 5px;
+	background-color: #395B64;
+	color: white;
+}
+/********** HOME PAGE ***********/
+.h1-large {
+	margin-bottom: 2.5rem;
+	color: #ffffff;
+	font-size: 4rem;
+	line-height: 4.5rem;
+}
+/********** Contact Us *********/
+bg-color {
+	background-color: #395B64;
+}
