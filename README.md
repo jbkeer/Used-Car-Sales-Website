@@ -3,5 +3,5 @@ The users should be able to register in the portal using the registration page. 
 
 Personally used with:
 
-Spring Tool Suite
+Spring Tool Suite <br>
 JSP Pages
